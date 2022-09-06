@@ -26,7 +26,14 @@ Activation:Relu
 
 The model is build with Kivy application in python.
 
+Positive use-case where anchor is my image fed directly from web-cam.
 
 ![image](https://user-images.githubusercontent.com/26068822/188318107-472640db-9183-44cf-904b-b77b965265f8.png)
+
+Negative use-case where the anchor image is person with similar features of mine,but neural network identified as false image hence its performing well in negative use-case.
+
 ![image](https://user-images.githubusercontent.com/26068822/188318591-0278c5fe-77cc-48ff-aed1-074ec8a85d6b.png)
+
+Negative use-case where the anchor is different from input and neural network identified as false image.
+
 ![image](https://user-images.githubusercontent.com/26068822/188319246-4d5f7529-8d7b-4167-bbeb-40542aac8478.png)
